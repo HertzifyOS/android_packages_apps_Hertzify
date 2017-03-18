@@ -81,6 +81,10 @@
     <string name="double_tap_to_sleep_title">Double-tap on status bar to sleep</string>
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
 
+    <!-- Bluetooth battery status -->
+    <string name="status_bar_bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="status_bar_bluetooth_battery_summary">Display battery status for the connected Bluetooth device, if available</string>
+
     <!-- Lockscreen Category -->
     <string name="lockscreen_gestures_category">Gestures</string>
     <string name="lock_screen_interface_category">Interface</string>
