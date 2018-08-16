@@ -83,10 +83,15 @@
 
     <!-- Lockscreen Category -->
     <string name="lockscreen_gestures_category">Gestures</string>
+    <string name="lock_screen_interface_category">Interface</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+
+    <!-- Lock screen Charging stats -->
+    <string name="lock_screen_charging_stats_title">Charging stats</string>
+    <string name="lock_screen_charging_stats_summary">Display current, voltage, wattage, and temperature stats while charging</string>
 
     <!-- Power Menu Category -->
     <string name="power_menu_interface_category">Interface</string>
