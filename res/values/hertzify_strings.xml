@@ -128,10 +128,15 @@
 
     <!-- Notifications Category -->
     <string name="notifications_interface_category">Interface</string>
-
+    <string name="notifications_sounds_vibration_category">Sounds &amp; vibration</string>
+    
     <!-- Small landscape notifications -->
     <string name="small_landscape_notification_title">Small landscape notifications</string>
     <string name="small_landscape_notification_summary">Shows notifications smaller in width in notification panel in landscape mode just as AOSP intended</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound when screen is on</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
     <!-- Miscellaneous Category -->
     <string name="miscellaneous_developer_options_category">Developer options</string>
