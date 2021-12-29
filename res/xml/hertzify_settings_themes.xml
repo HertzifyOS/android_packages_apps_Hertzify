@@ -42,4 +42,50 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="themes_fonts_category"
+        android:title="@string/themes_fonts_category">
+
+    <!-- Font style -->
+    <Preference
+        android:key="android.theme.customization.fonts"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary"
+        android:fragment="com.hertzify.settings.fragments.themes.FontsPicker"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="themes_icons_category"
+        android:title="@string/themes_icons_category">
+
+    <!-- Icon pack -->
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.hertzify.settings.fragments.themes.StatusbarIcons"/>
+
+    <!-- Signal icon style -->
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:title="@string/theme_customization_signal_icon_title"
+        android:summary="@string/theme_customization_signal_icon_summary"
+        android:fragment="com.hertzify.settings.fragments.themes.SignalIcons"/>
+
+    <!-- Wifi icon style -->
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:fragment="com.hertzify.settings.fragments.themes.WifiIcons"/>
+
+    <!-- Adaptive icon pack -->
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.hertzify.settings.fragments.themes.IconShapes"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
