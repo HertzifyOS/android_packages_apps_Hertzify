@@ -232,6 +232,8 @@
 
     <!-- Themes Category -->
     <string name="themes_animations_category">Animations</string>
+    <string name="themes_fonts_category">Fonts</string>
+    <string name="themes_icons_category">Icons</string>
 
     <!-- Charging animation -->
     <string name="themes_charging_animation_title">Charging animation</string>
@@ -369,4 +371,16 @@
     <string name="pie_system_animation_style">Android P</string>
     <string name="scale_system_animation_style">Scale</string>
     <string name="slide_system_animation_style">Slide</string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Font style</string>
+    <string name="theme_customization_font_summary">Set system font style</string>
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+    <string name="theme_customization_signal_icon_title">Signal icon style</string>
+    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
 </resources>

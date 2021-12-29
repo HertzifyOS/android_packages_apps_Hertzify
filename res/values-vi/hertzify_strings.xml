@@ -232,6 +232,8 @@
 
     <!-- Themes Category -->
     <string name="themes_animations_category">Hoạt ảnh</string>
+    <string name="themes_fonts_category">Phông chữ</string>
+    <string name="themes_icons_category">Biểu tượng</string>
 
     <!-- Charging animation -->
     <string name="themes_charging_animation_title">Hoạt ảnh sạc</string>
@@ -366,4 +368,16 @@
     <string name="pie_system_animation_style">Android P</string>
     <string name="scale_system_animation_style">Phóng to</string>
     <string name="slide_system_animation_style">Trượt</string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Kiểu phông chữ</string>
+    <string name="theme_customization_font_summary">Phông chữ hệ thống</string>
+    <string name="theme_customization_icon_pack_title">Gói biểu tượng</string>
+    <string name="theme_customization_icon_pack_summary">Chọn gói biểu tượng tùy chỉnh</string>
+    <string name="theme_customization_icon_shape_title">Hình dạng biểu tượng</string>
+    <string name="theme_customization_icon_shape_summary">Hình dạng các biểu tượng hệ thống</string>
+    <string name="theme_customization_signal_icon_title">Kiểu biểu tượng tín hiệu</string>
+    <string name="theme_customization_signal_icon_summary">Đặt kiểu biểu tượng tín hiệu tùy chỉnh</string>
+    <string name="theme_customization_wifi_icon_title">Kiểu biểu tượng Wi-Fi</string>
+    <string name="theme_customization_wifi_icon_summary">Đặt kiểu biểu tượng Wi-Fi tùy chỉnh</string>
 </resources>
