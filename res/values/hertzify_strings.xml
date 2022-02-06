@@ -152,4 +152,11 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
+    <!-- Themes Category -->
+    <string name="themes_animations_category">Animations</string>
+
+    <!-- Charging animation -->
+    <string name="themes_charging_animation_title">Charging animation</string>
+    <string name="themes_charging_animation_summary">Display an animation when the device is plugged in</string>
 </resources>
