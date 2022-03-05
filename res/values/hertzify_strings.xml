@@ -116,10 +116,15 @@
 
     <!-- Power Menu Category -->
     <string name="power_menu_interface_category">Interface</string>
+    <string name="power_menu_lock_screen_category">Lock screen</string>
 
     <!-- Advanced restart -->
     <string name="global_actions_advanced_reboot_title">Advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for other bootable components in power menu</string>
+
+    <!-- Allow power menu on secure lockscreen -->
+    <string name="power_menu_lock_screen_secure_title">Power menu</string>
+    <string name="power_menu_lock_screen_secure_summary">Allow accessing power menu on secure lockscreen</string>
 
     <!-- Notifications Category -->
     <string name="notifications_interface_category">Interface</string>
