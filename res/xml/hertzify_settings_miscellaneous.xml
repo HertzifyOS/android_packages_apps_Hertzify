@@ -9,4 +9,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/miscellaneous_title">
 
+    <PreferenceCategory
+        android:key="miscellaneous_developer_options_category"
+        android:title="@string/miscellaneous_developer_options_category">
+
+        <!-- Allow application downgrade -->
+        <com.hertzify.settings.preferences.GlobalSettingSwitchPreference
+            android:key="pm_downgrade_allowed"
+            android:title="@string/miscellaneous_app_downgrade_title"
+            android:summary="@string/miscellaneous_app_downgrade_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>
