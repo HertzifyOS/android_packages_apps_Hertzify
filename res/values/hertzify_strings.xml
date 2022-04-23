@@ -134,4 +134,8 @@
     <!-- Allow application downgrade -->
     <string name="miscellaneous_app_downgrade_title">Allow application downgrade</string>
     <string name="miscellaneous_app_downgrade_summary">Allow downgrading system applications, which may result in crashes and data loss</string>
+
+    <!-- Ignore window secure flags -->
+    <string name="miscellaneous_ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="miscellaneous_ignore_window_secure_summary">Remove restrictions on screenshots and screen recordings for all applications, potentially risking privacy leaks</string>
 </resources>
