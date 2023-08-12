@@ -309,4 +309,8 @@
     <string name="qs_brightness_slider_position_summary">Hiển thị thanh trượt độ sáng ở cuối bảng Cài đặt nhanh</string>
     <string name="qs_show_auto_brightness_title">Hiển thị biểu tượng độ sáng tự động</string>
     <string name="qs_show_auto_brightness_summary">Hiển thị biểu tượng bật/tắt độ sáng tự động trong thanh trượt độ sáng</string>
+
+    <!-- Brightness slider haptic feedback -->
+    <string name="qs_brightness_slider_haptic_title">Phản hồi xúc giác</string>
+    <string name="qs_brightness_slider_haptic_summary">Cung cấp phản hồi xúc giác khi thay đổi độ sáng bằng thanh trượt</string>    
 </resources>
