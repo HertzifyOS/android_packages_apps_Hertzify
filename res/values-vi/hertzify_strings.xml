@@ -255,4 +255,8 @@
     <string name="qs_data_usage_cycle_weekly">Hàng tuần</string>
     <string name="qs_show_data_usage_cycle_info_title">Hiển thị thông tin chu kỳ</string>
     <string name="qs_show_data_usage_cycle_info_summary">Hiển thị thêm thông tin về chu kỳ sử dụng dữ liệu</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Bật màn hình khi cắm sạc</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Tự động bật màn hình khi kết nối hoặc ngắt nguồn điện</string>
 </resources>
