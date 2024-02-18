@@ -223,4 +223,8 @@
     <string name="qs_data_usage_cycle_weekly">Weekly</string>
     <string name="qs_show_data_usage_cycle_info_title">Show cycle info</string>
     <string name="qs_show_data_usage_cycle_info_summary">Display additional information about the data usage cycle</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 </resources>
