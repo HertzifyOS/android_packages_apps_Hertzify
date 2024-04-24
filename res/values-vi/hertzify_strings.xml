@@ -159,6 +159,7 @@
 
     <!-- Miscellaneous Category -->
     <string name="miscellaneous_developer_options_category">Tùy chọn nhà phát triển</string>
+    <string name="miscellaneous_spoofing_category">Giả mạo</string>
 
     <!-- Allow application downgrade -->
     <string name="miscellaneous_app_downgrade_title">Cho phép hạ cấp ứng dụng</string>
@@ -198,6 +199,39 @@
     <string name="menu_show_overlay">Hiển thị lớp phủ</string>
     <string name="menu_hide_overlay">Ẩn lớp phủ</string>
  
+     <!-- Spoofing -->
+    <string name="spoofing_title">Giả mạo thành phần</string>
+    <string name="spoofing_summary">Vượt qua hạn chế của ứng dụng bằng cách giả mạo</string>
+    <string name="spoofing_system_wide_category">Toàn hệ thống</string>
+    <string name="spoofing_pixel_props_title">Thuộc tính Pixel</string>
+    <string name="spoofing_pixel_props_summary">Giả mạo một số ứng dụng Google nhất định như đang chạy trên thiết bị Pixel mới nhất</string>
+    <string name="tensor_spoof_title">Tính năng Tensor</string>
+    <string name="tensor_spoof_summary">Mở khóa các tính năng chỉ có trên các thiết bị Pixel dùng chip Tensor</string>
+    <string name="gms_spoof_title">Khắc phục Play Integrity</string>
+    <string name="gms_spoof_summary">Giả mạo thiết bị để vượt qua xác nhận Google Play</string>
+    <string name="spoofing_app_specific_category">Ứng dụng</string>
+    <string name="spoofing_qsb_title">Ứng dụng Google</string>
+    <string name="spoofing_qsb_summary">Giả mạo ứng dụng Google thành thiết bị Pixel mới nhất để mở khóa các tính năng độc quyền</string>
+    <string name="spoofing_vending_title">Cửa hàng Play</string>
+    <string name="spoofing_vending_summary">Giả mạo Play Store thành thiết bị Pixel mới nhất</string>
+    <string name="spoofing_photos_title">Google Photos</string>
+    <string name="spoofing_photos_summary">Giả mạo ứng dụng Google Photos thành Pixel XL</string>
+    <string name="spoofing_snap_title">Snapchat</string>
+    <string name="spoofing_snap_summary">Giả mạo Snapchat thành Pixel XL để khắc phục các vấn đề chat có thể xảy ra</string>
+    <string name="gameprops_title">Mở khóa FPS cao hơn trong trò chơi</string>
+    <string name="gameprops_summary">Giả mạo thiết bị như mẫu khác cho một số trò chơi để mở khóa FPS cao hơn</string>
+
+    <!-- Spoofing/Play Integrity fix JSON update -->
+    <string name="toast_spoofing_success">Đã tải pif.json thành công. Giả mạo thành %1$s cho Play Integrity.</string>
+    <string name="toast_spoofing_failure">Không thể giả mạo thuộc tính.</string>
+    <string name="update_pif_json_title">Cập nhật sửa Play Integrity</string>
+    <string name="update_pif_json_summary">Cập nhật thiết bị giả mạo PIF, yêu cầu kết nối internet.</string>
+    <string name="show_pif_properties_title">Thuộc tính sửa Play Integrity</string>
+    <string name="show_pif_properties_summary">Hiển thị tất cả thuộc tính PIF đang được đặt</string>
+    <string name="error_loading_properties">Lỗi khi tải thuộc tính PIF</string>
+    <string name="pif_spoofing_title">Chọn tệp JSON PIF</string>
+    <string name="pif_spoofing_summary">Chọn tệp JSON PIF sẽ được dùng để giả mạo Play Integrity</string>
+
     <!-- Themes Category -->
     <string name="themes_animations_category">Hoạt ảnh</string>
     <string name="themes_fonts_category">Phông chữ</string>
