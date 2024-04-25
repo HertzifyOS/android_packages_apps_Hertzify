@@ -72,6 +72,7 @@
     <!-- Status bar Category -->
 	<string name="status_bar_icons_category">Icons</string>
     <string name="status_bar_gestures_category">Gestures</string>
+    <string name="status_bar_privacy_indicators_category">Privacy indicators</string>
 
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Status bar items</string>
@@ -84,6 +85,14 @@
     <!-- Bluetooth battery status -->
     <string name="status_bar_bluetooth_battery_title">Bluetooth battery status</string>
     <string name="status_bar_bluetooth_battery_summary">Display battery status for the connected Bluetooth device, if available</string>
+
+    <!-- Privacy indicators -->
+    <string name="status_bar_mic_camera_privacy_indicator_title">Microphone &amp; camera</string>
+    <string name="status_bar_mic_camera_privacy_indicator_summary">Display an indicator when an app accesses the microphone or camera</string>
+    <string name="status_bar_location_privacy_indicator_title">Location</string>
+    <string name="status_bar_location_privacy_indicator_summary">Display an indicator when an app accesses your location</string>
+    <string name="status_bar_projection_privacy_indicator_title">Screen projection</string>
+    <string name="status_bar_projection_privacy_indicator_summary">Display an indicator when the screen is being projected</string>
 
     <!-- Lockscreen Category -->
     <string name="lockscreen_gestures_category">Gestures</string>
