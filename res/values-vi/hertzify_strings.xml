@@ -235,4 +235,8 @@
     <!-- Colored icons -->
     <string name="status_bar_colored_icons_title">Biểu tượng màu</string>
     <string name="status_bar_colored_icons_summary">Sử dụng biểu tượng của ứng dụng cho thông báo trên thanh trạng thái</string>
+
+    <!-- Notification counter -->
+    <string name="status_bar_notif_count_title">Số lượng thông báo</string>
+    <string name="status_bar_notif_count_summary">Hiển thị số thông báo chưa đọc trên từng biểu tượng ứng dụng</string>
 </resources>
