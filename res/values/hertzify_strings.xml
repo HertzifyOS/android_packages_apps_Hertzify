@@ -266,4 +266,8 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+
+    <!-- Colored icons -->
+    <string name="status_bar_colored_icons_title">Colored icons</string>
+    <string name="status_bar_colored_icons_summary">Use launcher icons for app notifications</string>
 </resources>
