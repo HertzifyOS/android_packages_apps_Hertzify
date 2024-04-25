@@ -33,6 +33,12 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true"/>
 
+        <!-- Colored icons -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_colored_icons"
+            android:title="@string/status_bar_colored_icons_title"
+            android:summary="@string/status_bar_colored_icons_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
