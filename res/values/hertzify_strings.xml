@@ -94,6 +94,10 @@
     <string name="status_bar_projection_privacy_indicator_title">Screen projection</string>
     <string name="status_bar_projection_privacy_indicator_summary">Display an indicator when the screen is being projected</string>
 
+    <!-- SttBar Brightness control -->
+    <string name="status_bar_brightness_control_title">Brightness control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by swiping across the status bar</string>
+
     <!-- Lockscreen Category -->
     <string name="lockscreen_gestures_category">Gestures</string>
     <string name="lock_screen_interface_category">Interface</string>
