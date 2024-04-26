@@ -33,6 +33,7 @@ public class LockScreen extends SettingsPreferenceFragment implements
     private static final String KEY_FINGERPRINT_CATEGORY = "lock_screen_fingerprint_category";
     private static final String KEY_AUTHENTICATION_SUCCESS = "fp_success_vibrate";
     private static final String KEY_AUTHENTICATION_ERROR = "fp_error_vibrate";
+    private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
 
     private PreferenceCategory mFingerprintCategory;
 
@@ -82,6 +83,7 @@ public class LockScreen extends SettingsPreferenceFragment implements
                 if (fingerprintManager == null || !fingerprintManager.isHardwareDetected()) {
                     keys.add(KEY_AUTHENTICATION_SUCCESS);
                     keys.add(KEY_AUTHENTICATION_ERROR);
+                    keys.add(KEY_RIPPLE_EFFECT);
                 }
                 return keys;
             }
