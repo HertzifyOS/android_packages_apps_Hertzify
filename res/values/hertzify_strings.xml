@@ -125,6 +125,10 @@
     <string name="lock_screen_fingerprint_error_vibration_title">Authentication error vibration</string>
     <string name="lock_screen_fingerprint_error_vibration_summary">Vibrate when fingerprint authentication fails</string>
 
+    <!-- Ripple effect on unlock -->
+    <string name="lock_screen_fingerprint_ripple_title">Ripple animation</string>
+    <string name="lock_screen_fingerprint_ripple_summary">Show ripple animation when unlocked with fingerprint</string>
+
     <!-- Power Menu Category -->
     <string name="power_menu_interface_category">Interface</string>
     <string name="power_menu_lock_screen_category">Lock screen</string>
