@@ -9,6 +9,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.provider.Settings;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
@@ -21,6 +22,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.hertzify.settings.preferences.SystemSettingListPreference;
 import com.hertzify.settings.preferences.SystemSettingSwitchPreference;
 
 import java.util.List;
@@ -32,7 +34,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String TAG = "QuickSettings";
 
     private static final String KEY_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
-    
+    private static final String KEY_BATTERY_PERCENT = "qs_show_battery_percent";
+    private static final String KEY_BATTERY_STYLE = "qs_battery_style";
+
+    private static final int BATTERY_STYLE_PORTRAIT = 0;
+    private static final int BATTERY_STYLE_TEXT = 4;
+    private static final int BATTERY_STYLE_HIDDEN = 5;
+
+    private SystemSettingListPreference mBatteryStyle;
+    private SystemSettingListPreference mBatteryPercent;
+
     private SystemSettingSwitchPreference mShowAutoBrightness;
 
     @Override
@@ -51,12 +62,28 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         if (!automaticAvailable) {
             prefScreen.removePreference(mShowAutoBrightness);
         }
+
+        mBatteryStyle = (SystemSettingListPreference) findPreference(KEY_BATTERY_STYLE);
+        mBatteryPercent = (SystemSettingListPreference) findPreference(KEY_BATTERY_PERCENT);
+
+        int batterystyle = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
+
+        mBatteryStyle.setOnPreferenceChangeListener(this);
+
+        mBatteryPercent.setEnabled(
+                batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         final Context context = getContext();
         final ContentResolver resolver = context.getContentResolver();
+        if (preference == mBatteryStyle) {
+            int value = Integer.parseInt((String) newValue);
+            mBatteryPercent.setEnabled(
+                    value != BATTERY_STYLE_TEXT && value != BATTERY_STYLE_HIDDEN);
+            return true;
         return false;
     }
 
