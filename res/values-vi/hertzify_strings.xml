@@ -380,4 +380,38 @@
     <string name="theme_customization_signal_icon_summary">Đặt kiểu biểu tượng tín hiệu tùy chỉnh</string>
     <string name="theme_customization_wifi_icon_title">Kiểu biểu tượng Wi-Fi</string>
     <string name="theme_customization_wifi_icon_summary">Đặt kiểu biểu tượng Wi-Fi tùy chỉnh</string>
+
+    <!-- Battery styles -->
+    <string name="status_bar_battery_style_title">Kiểu pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Biểu tượng nằm ngang (Phải)</string>
+    <string name="status_bar_battery_style_icon_landscape">Biểu tượng nằm ngang (Trái)</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Viên thuốc ngang</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Lorn ngang</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">IOS đứng</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Dọc Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Airoo ngang</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Nằm ngang phải kiểu A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Nằm ngang trái kiểu A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Nằm ngang phải kiểu B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Nằm ngang trái kiểu B</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Ngang iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Ngang iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Ngang Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_oneui7">Ngang OneUI 7</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn đầy</string>
+    <string name="status_bar_battery_style_big_circle">Tròn (To)</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Vòng tròn (Chấm lớn)</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_style_follow_status_bar">Theo kiểu thanh trạng thái</string>
+    <string name="status_bar_battery_percent_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percent_hidden">Ẩn</string>
+    <string name="status_bar_battery_percent_text_inside">Bên trong biểu tượng</string>
+    <string name="status_bar_battery_percent_text_next_right">Cạnh biểu tượng (phải)</string>
+    <string name="status_bar_battery_percent_text_next_left">Cạnh biểu tượng (trái)</string>
+    <string name="status_bar_battery_text_charging_title">Hiển thị phần trăm pin khi sạc</string>
+    <string name="status_bar_battery_text_charging_summary">Luôn hiển thị phần trăm pin khi sạc</string>
 </resources>
