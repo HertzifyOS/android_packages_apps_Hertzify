@@ -41,4 +41,23 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lock_screen_fingerprint_category"
+        android:title="@string/lock_screen_fingerprint_category">
+
+        <!-- Authentication success vibration -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="fp_success_vibrate"
+            android:title="@string/lock_screen_fingerprint_success_vibration_title"
+            android:summary="@string/lock_screen_fingerprint_success_vibration_summary"
+            android:defaultValue="true" />
+
+        <!-- Authentication error vibration -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="fp_error_vibrate"
+            android:title="@string/lock_screen_fingerprint_error_vibration_title"
+            android:summary="@string/lock_screen_fingerprint_error_vibration_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
