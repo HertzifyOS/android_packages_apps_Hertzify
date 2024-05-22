@@ -105,6 +105,7 @@
     <!-- Lockscreen Category -->
     <string name="lockscreen_gestures_category">Gestures</string>
     <string name="lock_screen_interface_category">Interface</string>
+    <string name="lock_screen_fingerprint_category">Fingerprint</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
@@ -117,6 +118,12 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Carrier name</string>
     <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="lock_screen_fingerprint_success_vibration_title">Authentication success vibration</string>
+    <string name="lock_screen_fingerprint_success_vibration_summary">Vibrate when fingerprint authentication is successful</string>
+    <string name="lock_screen_fingerprint_error_vibration_title">Authentication error vibration</string>
+    <string name="lock_screen_fingerprint_error_vibration_summary">Vibrate when fingerprint authentication fails</string>
 
     <!-- Power Menu Category -->
     <string name="power_menu_interface_category">Interface</string>
