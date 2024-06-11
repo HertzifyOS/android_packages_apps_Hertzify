@@ -48,5 +48,11 @@
             android:summary="@string/no_storage_restrict_summary"
             android:defaultValue="false"/>
 
+        <!-- Unlimit screenrecord -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="unlimit_screenrecord"
+            android:title="@string/miscellaneous_unlimit_screenrecord_title"
+            android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>     
 </PreferenceScreen>
