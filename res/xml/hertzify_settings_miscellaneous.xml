@@ -33,5 +33,12 @@
             android:title="@string/show_clipboard_overlay_title"
             android:summary="@string/show_clipboard_overlay_summary"
             android:defaultValue="true"/>
+
+        <!-- Hide screen capture status -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_screen_capture_status"
+            android:title="@string/hide_screen_capture_status_title"
+            android:summary="@string/hide_screen_capture_status_summary"
+            android:defaultValue="false"/>
     </PreferenceCategory>     
 </PreferenceScreen>
