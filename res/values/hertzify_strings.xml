@@ -114,6 +114,10 @@
     <string name="lock_screen_charging_stats_title">Charging stats</string>
     <string name="lock_screen_charging_stats_summary">Display current, voltage, wattage, and temperature stats while charging</string>
 
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
+
     <!-- Power Menu Category -->
     <string name="power_menu_interface_category">Interface</string>
     <string name="power_menu_lock_screen_category">Lock screen</string>

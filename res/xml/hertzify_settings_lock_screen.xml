@@ -20,6 +20,13 @@
             android:summary="@string/lock_screen_charging_stats_summary"
             android:defaultValue="true" />
 
+        <!-- Carrier name on lockscreen -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_show_carrier"
+            android:title="@string/lockscreen_show_carrier_title"
+            android:summary="@string/lockscreen_show_carrier_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
