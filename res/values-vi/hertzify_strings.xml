@@ -259,4 +259,8 @@
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Bật màn hình khi cắm sạc</string>
     <string name="wake_when_plugged_or_unplugged_summary">Tự động bật màn hình khi kết nối hoặc ngắt nguồn điện</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Bật bằng phím âm lượng</string>
+    <string name="volume_rocker_wake_summary">Đánh thức thiết bị bằng cách nhấn phím âm lượng</string>
 </resources>
