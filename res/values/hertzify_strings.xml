@@ -169,6 +169,10 @@
     <string name="spoof_storage_encryption_status_title">Disable storage encryption status</string>
     <string name="spoof_storage_encryption_status_summary">Prevent apps from not operating due to unencrypted storage</string>
 
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+
     <!-- Themes Category -->
     <string name="themes_animations_category">Animations</string>
 
