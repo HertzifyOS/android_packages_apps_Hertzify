@@ -199,4 +199,11 @@
     <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
+
+    <!-- Quick Settings Category -->
+    <string name="quick_settings_interface_category">Interface</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 </resources>
