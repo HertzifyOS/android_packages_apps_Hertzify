@@ -20,6 +20,12 @@
             android:summary="@string/small_landscape_notification_summary"
             android:defaultValue="true" />
 
+        <!-- Compact heads-up notifications -->
+        <com.hertzify.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.compact_heads_up_notification.always_show"
+            android:title="@string/compact_heads_up_notifications_enabled_title"
+            android:summary="@string/compact_heads_up_notifications_enabled_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
