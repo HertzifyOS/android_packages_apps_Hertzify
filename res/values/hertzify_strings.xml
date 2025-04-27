@@ -142,6 +142,10 @@
     <string name="notification_sound_vib_screen_on_title">Notification sound when screen is on</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
+    <!-- Compact heads-up notifications -->
+    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
+
     <!-- Miscellaneous Category -->
     <string name="miscellaneous_developer_options_category">Developer options</string>
 
