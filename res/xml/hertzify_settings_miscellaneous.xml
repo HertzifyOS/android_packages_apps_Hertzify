@@ -54,5 +54,12 @@
             android:title="@string/miscellaneous_unlimit_screenrecord_title"
             android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
             android:defaultValue="false" />
+
+        <!-- Spoof current storage encryption status -->
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="spoof_storage_encryption_status"
+            android:title="@string/spoof_storage_encryption_status_title"
+            android:summary="@string/spoof_storage_encryption_status_summary"
+            android:defaultValue="false"/>
     </PreferenceCategory>     
 </PreferenceScreen>
