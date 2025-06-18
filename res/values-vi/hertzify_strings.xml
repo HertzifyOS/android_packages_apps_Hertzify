@@ -232,6 +232,10 @@
     <string name="pif_spoofing_title">Chọn tệp JSON PIF</string>
     <string name="pif_spoofing_summary">Chọn tệp JSON PIF sẽ được dùng để giả mạo Play Integrity</string>
 
+    <!-- Spoofing/Keybox Data -->
+    <string name="keybox_data_title">Chọn tệp XML keybox để giả mạo</string>
+    <string name="keybox_data_summary">Chọn tệp XML keybox được dùng để giả mạo chứng thực khóa trên toàn hệ thống. Nhấn xóa để đặt lại dữ liệu keybox.</string>
+
     <!-- Themes Category -->
     <string name="themes_animations_category">Hoạt ảnh</string>
     <string name="themes_fonts_category">Phông chữ</string>
