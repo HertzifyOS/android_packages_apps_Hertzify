@@ -300,8 +300,21 @@
     <!-- Lock screen media art fade level -->
     <string name="ls_media_art_fade_level_title">Mức độ mờ dần ảnh bìa media</string>
     <string name="ls_media_art_fade_level_summary">Đặt mức độ mờ dần cho ảnh bìa media</string>
-    
+
     <!-- Lock screen media art blur level -->
     <string name="ls_media_art_blur_level_title">Mức độ làm mờ ảnh media</string>
     <string name="ls_media_art_blur_level_summary">Cường độ làm mờ khi áp dụng bộ lọc làm mờ</string>
+
+    <!-- Pulse music visualizer -->
+    <string name="pulse_settings_title">Trình hiển thị Pulse</string>
+    <string name="pulse_settings_summary">Hiển thị trình hiển thị dạng thanh trên màn hình khóa khi đang phát nhạc</string>
+    <string name="pulse_rounded_bars_title">Thanh bo tròn</string>
+    <string name="pulse_rounded_bars_summary">Hiển thị các thanh với góc bo tròn</string>
+    <string name="pulse_color">Màu trình hiển thị</string>
+    <string name="pulse_bar_count_title">Số lượng thanh</string>
+    <string name="pulse_bar_count_summary">Đặt số lượng thanh hiển thị trong trình hiển thị</string>
+    <string name="pulse_bar_count_units">thanh</string>
+    <string name="pulse_color_lavalamp">Đèn dung nham</string>
+    <string name="pulse_color_album">Ảnh bìa album</string>
+    <string name="pulse_color_accent">Màu chủ đạo</string>
 </resources>
