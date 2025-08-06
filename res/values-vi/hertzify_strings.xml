@@ -246,6 +246,7 @@
     <!-- Quick Settings Category -->
     <string name="quick_settings_interface_category">Giao diện</string>
     <string name="quick_settings_lock_screen_category">Màn hình khóa</string>
+    <string name="quick_settings_brightness_slider_category_title">Thanh trượt độ sáng</string>
 
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Sử dụng dữ liệu</string>
@@ -330,4 +331,12 @@
     <string name="notification_color">Màu thông báo</string>
     <string name="wallpaper_color">Màu hình nền</string>
     <string name="custom_color">Màu tùy chỉnh</string>
+
+    <!-- Brightness slider in QS -->
+    <string name="qs_show_brightness_slider_title">Hiển thị thanh trượt độ sáng</string>
+    <string name="qs_show_brightness_slider_hide">Ẩn</string>
+    <string name="qs_show_brightness_slider_normal">Chỉ trong bảng QS</string>
+    <string name="qs_show_brightness_slider_both">Trong bảng QS và Quick QS</string>
+    <string name="qs_brightness_slider_position_title">Thanh trượt độ sáng ở dưới cùng</string>
+    <string name="qs_brightness_slider_position_summary">Hiển thị thanh trượt độ sáng ở cuối bảng Cài đặt nhanh</string>
 </resources>
