@@ -95,4 +95,17 @@
         <item>wallpaper</item>
         <item>custom</item>
     </string-array>
+
+    <!-- QS panel brightness slider -->
+    <string-array name="qs_show_brightness_slider_entries" translatable="false">
+        <item>@string/qs_show_brightness_slider_hide</item>
+        <item>@string/qs_show_brightness_slider_normal</item>
+        <item>@string/qs_show_brightness_slider_both</item>
+    </string-array>
+
+    <string-array name="qs_show_brightness_slider_values" translatable="false">
+	<item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

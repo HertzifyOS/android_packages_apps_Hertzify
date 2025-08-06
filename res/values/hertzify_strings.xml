@@ -246,6 +246,7 @@
     <!-- Quick Settings Category -->
     <string name="quick_settings_interface_category">Interface</string>
     <string name="quick_settings_lock_screen_category">Lock screen</string>
+    <string name="quick_settings_brightness_slider_category_title">Brightness slider</string>
 
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Data usage</string>
@@ -333,4 +334,12 @@
     <string name="notification_color">Notification color</string>
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
+
+    <!-- Brightness slider in QS -->
+    <string name="qs_show_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_show_brightness_slider_hide">Hide</string>
+    <string name="qs_show_brightness_slider_normal">In QS panel only</string>
+    <string name="qs_show_brightness_slider_both">In QS and Quick QS panels</string>
+    <string name="qs_brightness_slider_position_title">Brightness slider at the bottom</string>
+    <string name="qs_brightness_slider_position_summary">Show the brightness slider at the bottom of the Quick Settings panel</string>
 </resources>
