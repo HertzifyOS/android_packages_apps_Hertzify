@@ -32,6 +32,25 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="quick_settings_brightness_slider_category_title"
+        android:title="@string/quick_settings_brightness_slider_category_title" >
+
+	    <com.hertzify.settings.preferences.SystemSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_show_brightness_slider_title"
+            android:entries="@array/qs_show_brightness_slider_entries"
+            android:entryValues="@array/qs_show_brightness_slider_values"
+            android:defaultValue="1" />
+
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_brightness_slider_position"
+            android:title="@string/qs_brightness_slider_position_title"
+            android:summary="@string/qs_brightness_slider_position_summary" 
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="quick_settings_lock_screen_category"
         android:title="@string/quick_settings_lock_screen_category">
 
