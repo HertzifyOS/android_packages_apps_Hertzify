@@ -218,8 +218,10 @@
     <string name="spoofing_photos_summary">Giả mạo ứng dụng Google Photos thành Pixel XL</string>
     <string name="spoofing_snap_title">Snapchat</string>
     <string name="spoofing_snap_summary">Giả mạo Snapchat thành Pixel XL để khắc phục các vấn đề chat có thể xảy ra</string>
-    <string name="gameprops_title">Mở khóa FPS cao hơn trong trò chơi</string>
-    <string name="gameprops_summary">Giả mạo thiết bị như mẫu khác cho một số trò chơi để mở khóa FPS cao hơn</string>
+    <string name="gameprops_title">Bật giả mạo Game Props</string>
+    <string name="gameprops_summary">Giả mạo thiết bị thành model khác cho một số game để mở khóa FPS cao hơn</string>
+    <string name="gameprops_load_json_title">Chọn tệp JSON Game Props</string>
+    <string name="gameprops_load_json_summary">Chọn tệp JSON Game Props để dùng khi giả mạo game</string>
 
     <!-- Spoofing/Play Integrity fix JSON update -->
     <string name="toast_spoofing_success">Đã tải pif.json thành công. Giả mạo thành %1$s cho Play Integrity.</string>
