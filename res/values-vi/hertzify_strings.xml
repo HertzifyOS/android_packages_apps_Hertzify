@@ -344,5 +344,12 @@
 
     <!-- Brightness slider haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Phản hồi xúc giác</string>
-    <string name="qs_brightness_slider_haptic_summary">Cung cấp phản hồi xúc giác khi thay đổi độ sáng bằng thanh trượt</string>    
+    <string name="qs_brightness_slider_haptic_summary">Cung cấp phản hồi xúc giác khi thay đổi độ sáng bằng thanh trượt</string>
+
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">Hình dạng ô Cài đặt nhanh</string>
+    <string name="qs_tile_shape_dynamic">Mặc định</string>
+    <string name="qs_tile_shape_circle">Tròn</string>
+    <string name="qs_tile_shape_rounded_square">Vuông bo góc</string>
+    <string name="qs_tile_shape_square">Vuông</string>
 </resources>
