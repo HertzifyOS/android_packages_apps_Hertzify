@@ -13,6 +13,14 @@
         android:key="quick_settings_interface_category"
         android:title="@string/quick_settings_interface_category">
 
+        <!-- QS tile shape -->
+        <com.hertzify.settings.preferences.SystemSettingListPreference
+            android:key="qs_tile_shape"
+            android:title="@string/qs_tile_shape_title"
+            android:entries="@array/qs_tile_shape_entries"
+            android:entryValues="@array/qs_tile_shape_values"
+            android:defaultValue="0" />
+
         <!-- Footer data usage -->
         <com.hertzify.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_data_usage"
