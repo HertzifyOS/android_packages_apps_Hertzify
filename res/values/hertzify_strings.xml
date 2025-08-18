@@ -362,4 +362,10 @@
     <string name="qs_brightness_slider_shape_circle">Circle</string>
     <string name="qs_brightness_slider_shape_rounded_square">Rounded square</string>
     <string name="qs_brightness_slider_shape_square">Square</string>  
+
+    <!-- System Animation styles -->
+    <string name="system_animation_style_title">System animation style</string>
+    <string name="default_system_animation_style">Default</string>
+    <string name="pie_system_animation_style">Android P</string>
+    <string name="scale_system_animation_style">Scale</string>
 </resources>
