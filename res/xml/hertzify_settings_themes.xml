@@ -13,6 +13,16 @@
         android:key="themes_animations_category"
         android:title="@string/themes_animations_category">
 
+        <!-- System Animation styles  -->
+        <com.hertzify.settings.preferences.SystemSettingListPreference
+            android:key="system_animation_style"
+            android:title="@string/system_animation_style_title"
+            android:dialogTitle="@string/system_animation_style_title"
+            android:entries="@array/system_animation_styles_entries"
+            android:entryValues="@array/system_animation_styles_values"
+            android:defaultValue="0"
+            android:summary="%s" />
+
         <!-- Charging animation -->
         <com.hertzify.settings.preferences.SystemSettingSwitchPreference
             android:key="charging_animation"
