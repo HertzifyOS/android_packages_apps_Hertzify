@@ -327,4 +327,10 @@
     <string name="qs_brightness_slider_shape_circle">Tròn</string>
     <string name="qs_brightness_slider_shape_rounded_square">Vuông bo góc</string>
     <string name="qs_brightness_slider_shape_square">Vuông</string>
+
+    <!-- System Animation styles -->
+    <string name="system_animation_style_title">Kiểu hoạt ảnh hệ thống</string>
+    <string name="default_system_animation_style">Mặc định</string>
+    <string name="pie_system_animation_style">Android P</string>
+    <string name="scale_system_animation_style">Phóng to</string>
 </resources>
