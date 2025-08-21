@@ -368,4 +368,5 @@
     <string name="default_system_animation_style">Default</string>
     <string name="pie_system_animation_style">Android P</string>
     <string name="scale_system_animation_style">Scale</string>
+    <string name="slide_system_animation_style">Slide</string>
 </resources>
