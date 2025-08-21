@@ -233,9 +233,17 @@
     <string name="pif_spoofing_summary">Chọn tệp JSON PIF sẽ được dùng để giả mạo Play Integrity</string>
 
     <!-- Spoofing/Keybox Data -->
-    <string name="keybox_data_title">Chọn tệp XML keybox để giả mạo</string>
-    <string name="keybox_data_summary">Chọn tệp XML keybox được dùng để giả mạo chứng thực khóa trên toàn hệ thống. Nhấn xóa để đặt lại dữ liệu keybox.</string>
-
+    <string name="keybox_data_title">Ghi đè xác thực Keybox</string>
+    <string name="keybox_data_summary">Tải tệp XML Keybox tùy chỉnh để ghi đè xác thực khóa thiết bị</string>
+    <string name="keybox_data_loaded_summary">Đã tải XML Keybox tùy chỉnh. Xóa để bỏ.</string>
+    <string name="keybox_delete_content_description">Xóa dữ liệu Keybox</string>
+    <string name="keybox_toast_invalid_file_selected">Không phải tệp XML. Hãy chọn một tệp XML Keybox hợp lệ.</string>
+    <string name="keybox_toast_missing_data">XML Keybox không hợp lệ: thiếu trường bắt buộc</string>
+    <string name="keybox_toast_file_loaded">Đã kích hoạt Keybox</string>
+    <string name="keybox_toast_file_cleared">Đã xóa Keybox</string>
+    <string name="keybox_check_title">Giả mạo Keybox riêng tư / vô hiệu hóa việc buộc strong integrity</string>
+    <string name="keybox_check_summary">Theo mặc định, chúng tôi cho phép buộc strong integrity với bất kỳ keybox nào và PIF hợp lệ, nhưng điều này sẽ gây lỗi cho các ứng dụng như Google Pay. Cài đặt này cho phép tắt tùy chọn này để khắc phục sự cố trên các ứng dụng đó.</string>
+    
     <!-- Themes Category -->
     <string name="themes_animations_category">Hoạt ảnh</string>
     <string name="themes_fonts_category">Phông chữ</string>
