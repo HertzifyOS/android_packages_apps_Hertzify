@@ -365,4 +365,5 @@
     <string name="default_system_animation_style">Mặc định</string>
     <string name="pie_system_animation_style">Android P</string>
     <string name="scale_system_animation_style">Phóng to</string>
+    <string name="slide_system_animation_style">Trượt</string>
 </resources>
