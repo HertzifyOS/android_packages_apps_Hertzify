@@ -67,6 +67,13 @@
             android:title="@string/qs_brightness_slider_haptic_title"
             android:summary="@string/qs_brightness_slider_haptic_summary"
             android:defaultValue="false" />
+
+        <com.hertzify.settings.preferences.SystemSettingListPreference
+            android:key="qs_brightness_slider_shape"
+            android:title="@string/qs_brightness_slider_shape_title"
+            android:entries="@array/qs_brightness_slider_shape_entries"
+            android:entryValues="@array/qs_brightness_slider_shape_values"
+            android:defaultValue="0" />
     </PreferenceCategory>
 
     <PreferenceCategory
