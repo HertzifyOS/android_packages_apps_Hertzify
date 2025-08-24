@@ -239,4 +239,8 @@
     <!-- Notification counter -->
     <string name="status_bar_notif_count_title">Số lượng thông báo</string>
     <string name="status_bar_notif_count_summary">Hiển thị số thông báo chưa đọc trên từng biểu tượng ứng dụng</string>
+
+    <!-- Notification Row -->
+    <string name="notification_row_transparency_title">Thông báo trong suốt</string>
+    <string name="notification_row_transparency_summary">Hiển thị thông báo trong phần cài đặt nhanh với hiệu ứng trong suốt</string>
 </resources>
