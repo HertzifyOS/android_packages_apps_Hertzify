@@ -249,4 +249,10 @@
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Sử dụng dữ liệu</string>
     <string name="qs_footer_datausage_summary">Hiển thị tóm tắt sử dụng dữ liệu trong chân trang cài đặt nhanh</string>
+    <string name="qs_data_usage_cycle_type_title">Chu kỳ sử dụng dữ liệu</string>
+    <string name="qs_data_usage_cycle_type_summary">Chọn hiển thị mức sử dụng dữ liệu theo ngày hoặc theo tuần</string>
+    <string name="qs_data_usage_cycle_daily">Hàng ngày</string>
+    <string name="qs_data_usage_cycle_weekly">Hàng tuần</string>
+    <string name="qs_show_data_usage_cycle_info_title">Hiển thị thông tin chu kỳ</string>
+    <string name="qs_show_data_usage_cycle_info_summary">Hiển thị thêm thông tin về chu kỳ sử dụng dữ liệu</string>
 </resources>
