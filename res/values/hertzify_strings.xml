@@ -217,4 +217,10 @@
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Data usage</string>
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_data_usage_cycle_type_title">Data usage cycle</string>
+    <string name="qs_data_usage_cycle_type_summary">Choose between daily or weekly data usage display</string>
+    <string name="qs_data_usage_cycle_daily">Daily</string>
+    <string name="qs_data_usage_cycle_weekly">Weekly</string>
+    <string name="qs_show_data_usage_cycle_info_title">Show cycle info</string>
+    <string name="qs_show_data_usage_cycle_info_summary">Display additional information about the data usage cycle</string>
 </resources>
