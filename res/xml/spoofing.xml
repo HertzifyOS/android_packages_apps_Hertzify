@@ -51,6 +51,13 @@
             android:summary="@string/tensor_spoof_summary"
             android:defaultValue="false" />
 
+        <!-- GMS cert chain -->
+        <com.hertzify.settings.preferences.SecureSettingSwitchPreference
+            android:key="gms_cert_chain"
+            android:title="@string/gms_cert_chain_title"
+            android:summary="@string/gms_cert_chain_summary"
+            android:defaultValue="false" />
+
         <!-- Keybox Data -->
         <com.hertzify.settings.preferences.KeyboxDataPreference
             android:key="keybox_data_setting"
