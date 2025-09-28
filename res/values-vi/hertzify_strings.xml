@@ -282,4 +282,26 @@
     <!-- Disable QS on secure lock screen -->
     <string name="quick_settings_secure_lock_screen_title">Cài đặt nhanh trên màn hình khóa</string>
     <string name="quick_settings_secure_lock_screen_summary">Cho phép truy cập cài đặt nhanh trên màn hình khóa</string>
+
+    <!-- Lock screen media art -->
+    <string name="ls_media_art_title">Ảnh bìa media</string>
+    <string name="ls_media_art_summary">Hiển thị ảnh bìa media khi có sẵn</string>
+
+    <!-- Lock screen album art filter -->
+    <string name="ls_media_art_filter_title">Bộ lọc ảnh bìa media</string>
+    <string name="ls_media_art_filter_none">Không</string>
+    <string name="ls_media_art_filter_blur">Làm mờ</string>
+    <string name="ls_media_art_filter_grayscale">Xám</string>
+    <string name="ls_media_art_filter_sepia">Nâu sepia</string>
+    <string name="ls_media_art_filter_tint">Màu chủ đạo</string>
+    <string name="ls_media_art_filter_invert">Đảo ngược</string>
+    <string name="ls_media_art_filter_grayblur">Xám và làm mờ</string>
+
+    <!-- Lock screen media art fade level -->
+    <string name="ls_media_art_fade_level_title">Mức độ mờ dần ảnh bìa media</string>
+    <string name="ls_media_art_fade_level_summary">Đặt mức độ mờ dần cho ảnh bìa media</string>
+    
+    <!-- Lock screen media art blur level -->
+    <string name="ls_media_art_blur_level_title">Mức độ làm mờ ảnh media</string>
+    <string name="ls_media_art_blur_level_summary">Cường độ làm mờ khi áp dụng bộ lọc làm mờ</string>
 </resources>
