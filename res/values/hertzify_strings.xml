@@ -213,6 +213,7 @@
 
     <!-- Quick Settings Category -->
     <string name="quick_settings_interface_category">Interface</string>
+    <string name="quick_settings_lock_screen_category">Lock screen</string>
 
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Data usage</string>
@@ -248,4 +249,8 @@
     <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
     <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
     <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+
+    <!-- Disable QS -->
+    <string name="quick_settings_secure_lock_screen_title">QS on lock screen</string>
+    <string name="quick_settings_secure_lock_screen_summary">Allow swipe down on lock screen to view Quick Settings</string>
 </resources>

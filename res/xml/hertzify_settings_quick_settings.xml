@@ -30,4 +30,16 @@
             android:entryValues="@array/qs_data_usage_cycle_type_values"
             android:defaultValue="0" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quick_settings_lock_screen_category"
+        android:title="@string/quick_settings_lock_screen_category">
+
+        <!-- Hide on secure lock screen -->
+        <com.hertzify.settings.preferences.SecureSettingSwitchPreference
+            android:key="enable_lockscreen_quick_settings"
+            android:title="@string/quick_settings_secure_lock_screen_title"
+            android:summary="@string/quick_settings_secure_lock_screen_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
