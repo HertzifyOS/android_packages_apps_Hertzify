@@ -226,6 +226,10 @@
     <string name="gms_cert_chain_title">Disable forcing strong integrity</string>
     <string name="gms_cert_chain_summary">Forcing strong integrity breaks apps like Google Pay, enabling this option fixes such apps.</string>
 
+    <!-- Google Photos Spoof -->
+    <string name="gphotos_spoof_title">Unlimited Photos storage</string>
+    <string name="gphotos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+
     <!-- Themes Category -->
     <string name="themes_animations_category">Animations</string>
 
