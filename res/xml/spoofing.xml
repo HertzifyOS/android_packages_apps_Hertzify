@@ -9,6 +9,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title" >
 
+    <com.hertzify.settings.preferences.SecureSettingSwitchPreference
+        android:key="gms_cert_chain"
+        android:title="@string/gms_cert_chain_title"
+        android:summary="@string/gms_cert_chain_summary"
+        android:defaultValue="false" />
+
     <com.hertzify.settings.preferences.KeyboxDataPreference
         android:key="keybox_data_setting"
         android:title="@string/keybox_data_title"/>
