@@ -243,4 +243,6 @@
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Thông báo trong suốt</string>
     <string name="notification_row_transparency_summary">Hiển thị thông báo trong phần cài đặt nhanh với hiệu ứng trong suốt</string>
+    <string name="notification_row_transparency_lockscreen_title">Thông báo trong suốt trên màn hình khóa</string>
+    <string name="notification_row_transparency_lockscreen_summary">Hiển thị thông báo trên màn hình khóa với hiệu ứng trong suốt</string>
 </resources>
