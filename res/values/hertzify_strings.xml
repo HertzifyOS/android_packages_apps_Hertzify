@@ -278,4 +278,6 @@
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notification row transparency</string>
     <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
+    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
+    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
 </resources>
