@@ -285,4 +285,17 @@
     <string name="pulse_color_lavalamp">Đèn dung nham</string>
     <string name="pulse_color_album">Ảnh bìa album</string>
     <string name="pulse_color_accent">Màu chủ đạo</string>
+
+    <!-- Edge light -->
+    <string name="edge_light_title">Đèn viền màn hình</string>
+    <string name="edge_light_summary">Sáng các cạnh viền màn hình khi có thông báo</string>
+    <string name="edge_light_color_mode_title">Chế độ màu</string>
+    <string name="edge_light_pulse_count_title">Số lần nhấp nháy</string>
+    <string name="edge_light_pulse_count_summary">Số lần nhấp nháy cho đèn viền màn hình</string>
+    <string name="edge_light_stroke_width_title">Độ rộng nét</string>
+    <string name="edge_light_stroke_width_summary">Đặt độ dày cho thanh đèn viền màn hình</string>
+    <string name="accent_color">Màu chủ đạo (Mặc định)</string>
+    <string name="notification_color">Màu thông báo</string>
+    <string name="wallpaper_color">Màu hình nền</string>
+    <string name="custom_color">Màu tùy chỉnh</string>
 </resources>
