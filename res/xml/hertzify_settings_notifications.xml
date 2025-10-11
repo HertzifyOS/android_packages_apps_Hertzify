@@ -40,6 +40,13 @@
             android:title="@string/compact_heads_up_notifications_enabled_title"
             android:summary="@string/compact_heads_up_notifications_enabled_summary"
             android:defaultValue="false" />
+
+        <!-- Edge Light -->
+        <Preference
+            android:key="edge_light_settings"
+            android:title="@string/edge_light_title"
+            android:summary="@string/edge_light_summary"
+            android:fragment="com.hertzify.settings.fragments.notifications.EdgeLightSettings" />
     </PreferenceCategory>
 
     <PreferenceCategory
