@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 HertzifyOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Hertzify -->
+    <string name="hertzify_dashboard_title">Cài đặt Hertzify</string>
+    <string name="hertzify_dashboard_summary">Điều chỉnh hệ thống của bạn đến tần số phù hợp</string>
+
+    <!-- Categories -->
+    <string name="themes_title">Chủ đề</string>
+    <string name="themes_summary">Monet, phông chữ, biểu tượng</string>
+    <string name="lock_screen_title">Màn hình khóa</string>
+    <string name="lock_screen_summary">Giao diện, tùy chọn khác</string>
+    <string name="status_bar_title">Thanh trạng thái</string>
+    <string name="status_bar_summary">Cử chỉ, biểu tượng, chỉ báo quyền riêng tư</string>
+    <string name="quick_settings_title">Cài đặt nhanh</string>
+    <string name="quick_settings_summary">Giao diện, màn hình khóa</string>
+    <string name="notifications_title">Thông báo</string>
+    <string name="notifications_summary">Cảnh báo, giao diện</string>
+    <string name="power_menu_title">Menu nguồn</string>
+    <string name="power_menu_summary">Hành động, màn hình khóa</string>
+    <string name="buttons_title">Nút bấm</string>
+    <string name="buttons_summary">Nút nguồn, nút âm lượng</string>
+    <string name="miscellaneous_title">Khác</string>
+    <string name="miscellaneous_summary">Tùy chọn nhà phát triển, giả lập thiết bị</string>
+    <string name="about_title">Giới thiệu</string>
+    <string name="about_summary">Giới thiệu về HertzifyOS</string>
+
+    <!-- About -->
+    <string name="about_info">
+    HertzifyOS được thiết kế để giữ cho hệ thống của bạn ở nhịp độ hoàn hảo — cung cấp trải nghiệm AOSP sạch sẽ với các tính năng tùy chỉnh mạnh mẽ trong tầm tay bạn
+    </string>
+    <string name="about_website_title">Trang web</string>
+    <string name="about_website_summary">Ghé thăm trang web của chúng tôi</string>
+    <string name="about_telegram_title" translatable="false">Telegram</string>
+    <string name="about_telegram_summary">Xem Telegram của chúng tôi</string>
+    <string name="about_github_title" translatable="false">GitHub</string>
+    <string name="about_github_summary">Xem GitHub của chúng tôi</string>
+    <string name="about_contributors_title">Người đóng góp</string>
+    <string name="about_contributor_title" translatable="false">HDzungx</string>
+    <string name="about_contributor_summary" translatable="false">Founder/Lead Developer</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">theo mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="custom_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Bộ chọn màu</string>
+    <string name="press_color_to_apply">Nhấn vào màu bên dưới để áp dụng</string>
+    <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string>
+    <string name="hex" translatable="false">Hex:</string>
+    <string name="hex_hint" translatable="false">#ff000000</string>
+    <string name="set">Đặt</string>
+    <string name="color_default">Mặc định</string>
+
+    <!-- Proper seekbar -->
+    <string name="proper_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="proper_seekbar_default_value">Mặc định</string>
+    <string name="proper_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="proper_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
+
+    <!-- App list fragment -->
+    <string name="search">Tìm kiếm</string>
+    <string name="search_apps">Tìm kiếm ứng dụng</string>
+
+    <!-- Status bar Category -->
+	<string name="status_bar_icons_category">Biểu tượng</string>
+    <string name="status_bar_gestures_category">Cử chỉ</string>
+    <string name="status_bar_privacy_indicators_category">Chỉ báo quyền riêng tư</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Mục thanh trạng thái</string>
+    <string name="icon_manager_summary">Kiểm soát khả năng hiển thị các biểu tượng thanh trạng thái</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Chạm hai lần vào thanh trạng thái để tắt màn hình</string>
+    <string name="double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái để đưa thiết bị vào chế độ ngủ</string>
+
+    <!-- Bluetooth battery status -->
+    <string name="status_bar_bluetooth_battery_title">Trạng thái pin Bluetooth</string>
+    <string name="status_bar_bluetooth_battery_summary">Hiển thị trạng thái pin cho thiết bị Bluetooth đã kết nối, nếu có</string>
+
+    <!-- Privacy indicators -->
+    <string name="status_bar_mic_camera_privacy_indicator_title">Micrô &amp; máy ảnh</string>
+    <string name="status_bar_mic_camera_privacy_indicator_summary">Hiển thị chỉ báo khi ứng dụng truy cập micrô hoặc máy ảnh</string>
+    <string name="status_bar_location_privacy_indicator_title">Vị trí</string>
+    <string name="status_bar_location_privacy_indicator_summary">Hiển thị chỉ báo khi ứng dụng truy cập vị trí của bạn</string>
+    <string name="status_bar_projection_privacy_indicator_title">Chiếu màn hình</string>
+    <string name="status_bar_projection_privacy_indicator_summary">Hiển thị chỉ báo khi màn hình đang được chiếu</string>
+
+    <!-- SttBar Brightness control -->
+    <string name="status_bar_brightness_control_title">Điều khiển độ sáng</string>
+    <string name="status_bar_brightness_control_summary">Điều chỉnh độ sáng bằng cách vuốt qua thanh trạng thái</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Hiển thị biểu tượng dữ liệu bị tắt</string>
+    <string name="data_disabled_icon_summary">Hiển thị dấu gạch chéo bên cạnh thanh tín hiệu khi dữ liệu bị tắt</string>
+
+    <!-- Lockscreen Category -->
+    <string name="lockscreen_gestures_category">Cử chỉ</string>
+    <string name="lock_screen_interface_category">Giao diện</string>
+    <string name="lock_screen_fingerprint_category">Vân tay</string>
+
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Chạm hai lần vào màn hình khóa để tắt</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Chạm hai lần vào một phần ba phía trên hoặc khu vực lối tắt phía dưới của màn hình khóa để đưa thiết bị vào chế độ ngủ</string>
+
+    <!-- Lock screen Charging stats -->
+    <string name="lock_screen_charging_stats_title">Thống kê sạc</string>
+    <string name="lock_screen_charging_stats_summary">Hiển thị thống kê dòng điện, điện áp, công suất và nhiệt độ trong khi sạc</string>
+
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Tên nhà mạng</string>
+    <string name="lockscreen_show_carrier_summary">Hiển thị tên nhà mạng trong thanh trạng thái</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="lock_screen_fingerprint_success_vibration_title">Rung khi xác thực thành công</string>
+    <string name="lock_screen_fingerprint_success_vibration_summary">Rung khi xác thực vân tay thành công</string>
+    <string name="lock_screen_fingerprint_error_vibration_title">Rung khi xác thực lỗi</string>
+    <string name="lock_screen_fingerprint_error_vibration_summary">Rung khi xác thực vân tay thất bại</string>
+
+    <!-- Ripple effect on unlock -->
+    <string name="lock_screen_fingerprint_ripple_title">Hiệu ứng gợn sóng</string>
+    <string name="lock_screen_fingerprint_ripple_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
+
+    <!-- Power Menu Category -->
+    <string name="power_menu_interface_category">Giao diện</string>
+    <string name="power_menu_lock_screen_category">Màn hình khóa</string>
+
+    <!-- Advanced restart -->
+    <string name="global_actions_advanced_reboot_title">Khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị tùy chọn cho các thành phần có thể khởi động khác trong menu nguồn</string>
+
+    <!-- Allow power menu on secure lockscreen -->
+    <string name="power_menu_lock_screen_secure_title">Menu nguồn</string>
+    <string name="power_menu_lock_screen_secure_summary">Cho phép truy cập menu nguồn trên màn hình khóa bảo mật</string>
+
+    <!-- Notifications Category -->
+    <string name="notifications_interface_category">Giao diện</string>
+    <string name="notifications_sounds_vibration_category">Âm thanh &amp; rung</string>
+
+    <!-- Small landscape notifications -->
+    <string name="small_landscape_notification_title">Thông báo ngang nhỏ</string>
+    <string name="small_landscape_notification_summary">Hiển thị thông báo nhỏ hơn về chiều rộng trong bảng thông báo ở chế độ ngang giống như AOSP dự định</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Âm thanh thông báo khi màn hình bật</string>
+    <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung cho thông báo khi màn hình bật</string>
+
+    <!-- Compact heads-up notifications -->
+    <string name="compact_heads_up_notifications_enabled_title">Thông báo nổi nhỏ gọn</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Hiển thị thông báo ở kích thước nhỏ gọn</string>
+
+    <!-- Miscellaneous Category -->
+    <string name="miscellaneous_developer_options_category">Tùy chọn nhà phát triển</string>
+    <string name="miscellaneous_spoofing_category">Giả mạo</string>
+
+    <!-- Allow application downgrade -->
+    <string name="miscellaneous_app_downgrade_title">Cho phép hạ cấp ứng dụng</string>
+    <string name="miscellaneous_app_downgrade_summary">Cho phép hạ cấp ứng dụng hệ thống, có thể dẫn đến sự cố và mất dữ liệu</string>
+
+    <!-- Ignore window secure flags -->
+    <string name="miscellaneous_ignore_window_secure_title">Bỏ qua cờ bảo mật cửa sổ</string>
+    <string name="miscellaneous_ignore_window_secure_summary">Loại bỏ hạn chế về chụp màn hình và ghi màn hình cho tất cả ứng dụng, có thể gây rủi ro rò rỉ quyền riêng tư</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Hiển thị lớp phủ bộ nhớ tạm</string>
+    <string name="show_clipboard_overlay_summary">Hiển thị lớp phủ ở góc dưới bên trái của màn hình khi có gì đó được sao chép vào bộ nhớ tạm</string>
+
+   <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">Ẩn trạng thái chụp màn hình</string>
+    <string name="hide_screen_capture_status_summary">Ẩn trạng thái chụp màn hình và ghi màn hình khỏi tất cả ứng dụng. Có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
+
+    <!-- No storage restrict -->
+    <string name="no_storage_restrict_title">Không hạn chế lưu trữ</string>
+    <string name="no_storage_restrict_summary">Loại bỏ hạn chế khi chọn thư mục thông qua Storage Access Framework. Có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
+
+    <!-- Unlimit screenrecord -->
+    <string name="miscellaneous_unlimit_screenrecord_title">Không giới hạn ghi màn hình</string>
+    <string name="miscellaneous_unlimit_screenrecord_summary">Loại bỏ giới hạn kích thước tệp 15GiB\nCó thể dẫn đến tệp đầu ra lớn hơn mức cần thiết</string>
+
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Vô hiệu hóa trạng thái mã hóa lưu trữ</string>
+    <string name="spoof_storage_encryption_status_summary">Ngăn ứng dụng không hoạt động do lưu trữ chưa được mã hóa</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ẩn trạng thái nhà phát triển</string>
+    <string name="hide_developer_status_summary">Ẩn trạng thái nhà phát triển khỏi ứng dụng</string>
+
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Ẩn danh sách ứng dụng</string>
+    <string name="hide_applist_summary">Ngăn ứng dụng kiểm tra các ứng dụng đã chọn từ danh sách ứng dụng</string>
+    <string name="menu_show_overlay">Hiển thị lớp phủ</string>
+    <string name="menu_hide_overlay">Ẩn lớp phủ</string>
+ 
+    <!-- Spoofing -->
+    <string name="spoofing_title">Giả mạo thành phần</string>
+    <string name="spoofing_summary">Vượt qua hạn chế ứng dụng bằng cách giả mạo thành phần</string>
+
+     <!-- Keybox Data -->
+    <string name="keybox_data_title">Ghi đè chứng thực keybox</string>
+    <string name="keybox_data_summary">Tải XML keybox tùy chỉnh để ghi đè chứng thực khóa thiết bị</string>
+    <string name="keybox_data_loaded_summary">Đã tải XML keybox tùy chỉnh. Xóa để xóa dữ liệu.</string>
+    <string name="keybox_delete_content_description">Xóa dữ liệu keybox</string>
+    <string name="keybox_toast_invalid_file_selected">Không phải tệp XML. Chọn XML keybox hợp lệ.</string>
+    <string name="keybox_toast_missing_data">XML keybox không hợp lệ: thiếu trường bắt buộc</string>
+    <string name="keybox_toast_file_loaded">Đã tải keybox</string>
+    <string name="keybox_toast_file_cleared">Đã xóa keybox</string>
+
+     <!-- Pif Data -->
+    <string name="pif_data_title">Chọn PIF JSON để giả mạo</string>
+    <string name="pif_data_summary">Chọn PIF JSON được sử dụng cho giả mạo chứng thực prop cho dịch vụ di động google và play store. Nhấp vào nút xóa để đặt lại prop dữ liệu PIF và sử dụng prop PIF động được sử dụng theo mặc định.</string>
+    <string name="pif_data_loaded_summary">Đã tải PIF JSON tùy chỉnh. Xóa để xóa dữ liệu.</string>
+    <string name="pif_delete_content_description">Xóa dữ liệu PIF</string>
+    <string name="pif_toast_invalid_file_selected">Không phải tệp JSON. Chọn PIF JSON hợp lệ.</string>
+    <string name="pif_toast_file_loaded">Đã tải PIF JSON</string>
+    <string name="pif_toast_file_cleared">Đã xóa PIF JSON</string>
+
+    <!-- GMS cert chain -->
+    <string name="gms_cert_chain_title">Vô hiệu hóa ép buộc tính toàn vẹn</string>
+    <string name="gms_cert_chain_summary">Ép buộc tính toàn vẹn (strong integrity) làm hỏng các ứng dụng như Google Pay, bật tùy chọn này sẽ sửa các ứng dụng đó.</string>
+
+    <!-- Google Photos Spoof -->
+    <string name="gphotos_spoof_title">Lưu trữ ảnh không giới hạn</string>
+    <string name="gphotos_spoof_summary">Giả mạo thiết bị của bạn là Pixel XL chỉ cho ứng dụng Google Photos để cung cấp lưu trữ không giới hạn cho sao lưu</string>
+
+    <!-- Themes Category -->
+    <string name="themes_animations_category">Hoạt ảnh</string>
+
+    <!-- Charging animation -->
+    <string name="themes_charging_animation_title">Hoạt ảnh sạc</string>
+    <string name="themes_charging_animation_summary">Hiển thị hoạt ảnh khi thiết bị được cắm sạc</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Hoạt ảnh tắt màn hình</string>
+    <string name="screen_off_animation_default">Mặc định</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Phóng to</string>
+
+    <!-- Quick Settings Category -->
+    <string name="quick_settings_interface_category">Giao diện</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Sử dụng dữ liệu</string>
+    <string name="qs_footer_datausage_summary">Hiển thị tóm tắt sử dụng dữ liệu trong chân trang cài đặt nhanh</string>
+</resources>
