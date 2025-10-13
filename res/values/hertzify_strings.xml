@@ -342,4 +342,6 @@
     <string name="qs_show_brightness_slider_both">In QS and Quick QS panels</string>
     <string name="qs_brightness_slider_position_title">Brightness slider at the bottom</string>
     <string name="qs_brightness_slider_position_summary">Show the brightness slider at the bottom of the Quick Settings panel</string>
+    <string name="qs_show_auto_brightness_title">Hiển thị biểu tượng độ sáng tự động</string>
+    <string name="qs_show_auto_brightness_summary">Hiển thị biểu tượng bật/tắt độ sáng tự động trong thanh trượt độ sáng</string>
 </resources>
