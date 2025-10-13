@@ -48,6 +48,12 @@
             android:summary="@string/qs_brightness_slider_position_summary" 
             android:defaultValue="false" />
 
+        <com.hertzify.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:title="@string/qs_show_auto_brightness_title"
+            android:summary="@string/qs_show_auto_brightness_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
