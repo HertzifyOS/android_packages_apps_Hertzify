@@ -339,4 +339,6 @@
     <string name="qs_show_brightness_slider_both">Trong bảng QS và Quick QS</string>
     <string name="qs_brightness_slider_position_title">Thanh trượt độ sáng ở dưới cùng</string>
     <string name="qs_brightness_slider_position_summary">Hiển thị thanh trượt độ sáng ở cuối bảng Cài đặt nhanh</string>
+    <string name="qs_show_auto_brightness_title">Hiển thị biểu tượng độ sáng tự động</string>
+    <string name="qs_show_auto_brightness_summary">Hiển thị biểu tượng bật/tắt độ sáng tự động trong thanh trượt độ sáng</string>
 </resources>
